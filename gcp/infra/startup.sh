@@ -72,6 +72,8 @@ echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main |
 sudo apt update
 sudo apt install trivy -y
 
+sudo apt update -y
+sudo apt install snapd -y
 
 # Intalling Helm
 #! /bin/bash
